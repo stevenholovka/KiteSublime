@@ -1,4 +1,4 @@
-__all__ = ['_launch_kite', '_locate_kite', '_is_kite_running', '_can_download_kite']
+__all__ = ['_launch_kite', '_locate_kite', '_is_kite_running']
 
 
 def _launch_kite(app):
@@ -10,8 +10,4 @@ def _locate_kite():
 
 
 def _is_kite_running():
-    return False
-
-
-def _can_download_kite():
     return False
